@@ -1,0 +1,26 @@
+h1, h2{
+    background-color: aqua;
+    color: brown;
+    text-align: center;
+}
+.fondo{
+    background-color: aquamarine;
+}
+a{
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+img{
+    display: inline;
+    position: relative;
+}
+
+p{
+    text-align: center;
+    size: 20px;
+    font-family: cursive;
+    color: chocolate;
+}
+
+

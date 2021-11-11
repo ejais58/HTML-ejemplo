@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(/img/back_bitcoin.jpg) no-repeat center;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+.login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    position: relative;
+    width: 100%;
+    max-width: 380px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    color: white;
+    box-shadow: rgba(0,0,0,0.5);
+}
+
+.form h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: orange;
+}
+
+.form .input-group{
+    position: relative;
+}
+
+.form .input-group input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background-color: transparent;
+    color: inherit;
+}
+
+.submit-button{
+    display: block;
+    margin-left: 140px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    background-color: orange;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+.form a{
+    padding: 5px;
+    text-align: center;
+}
